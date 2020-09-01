@@ -2,12 +2,13 @@
 
 ## What is the purpose of this PR?
 - [ ] New Feature <!-- Something new implemented -->
-- [ ] Enhancement <!-- Enhancing the code/applicaiton -->
-- [ ] Defect <!-- Forgot to implement something, and this PR is for that -->
+- [ ] Enhancement <!-- Enhancing the code/application -->
+- [ ] Defect <!-- Forgot to implement something? -->
 - [ ] Bug Fix <!-- Fixes a bug -->
 
 ## How was this tested?
 <!-- If you ran any unit tests, post the screen shots here. -->
+<!-- If none available, but N/A -->
 
 ## Screenshots
 <!-- Post screen shots of anything else that can be related to your story here. -->
@@ -18,4 +19,4 @@
 JIRA: [SAD-#](https://thanostech.atlassian.net/browse/SAD-#)
 
 <!-- link the last build for the repository here -->
-Jenkins Build: [##](jira_last_build_link_here)
+Jenkins: [Last Build](jira_last_build_link_here)

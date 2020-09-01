@@ -14,6 +14,7 @@ You will be visiting these links quite frequently, so it's a good idea to bookma
 
 <h1>Table of Contents</h1>
 
+- [Quick Start](#quick-start)
 - [SDLC Tools](#sdlc-tools)
   - [Team Communication Software](#team-communication-software)
   - [Source Control](#source-control)
@@ -22,6 +23,14 @@ You will be visiting these links quite frequently, so it's a good idea to bookma
 - [Project Details](#project-details)
 - [Tech Stack](#tech-stack)
 - [Roles](#roles)
+
+# Quick Start
+
+Refer to the following guides below to quickly get acquainted with project workflow.
+
+|                       Name                       |
+| :----------------------------------------------: |
+| [Jira Quickstart](./DOCS/jira_quick_tutorial.md) |
 
 # SDLC Tools
 Below are the tools that are going to be used to aide us in the SDLC.
