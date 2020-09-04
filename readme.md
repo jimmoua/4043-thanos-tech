@@ -28,7 +28,7 @@ You will be visiting these links quite frequently, so it's a good idea to bookma
 
 # Quick Start
 
-Refer to the following guides below to quickly get acquainted with project workflow.
+Refer to the following guides below to quickly get acquainted with project workflow. It will include how to properly do PR's and such.
 
 |                       Name                       |
 | :----------------------------------------------: |
