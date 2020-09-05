@@ -70,5 +70,7 @@ I always find code reviews super helpful. You can learn a lot from it and give s
 
 After that, rebase your PR and perform a squash of commits into a single commit. At the top of that commit, make sure you name it the Jira key and tag number.
 
+**You can find an example [here](https://github.com/jimmoua/bams-barber-shop/pull/1)**.
+
 ### 5 - Done
 Once you've merged to master, move your story into the **Done** panel of the Kanban board.
