@@ -11,7 +11,7 @@ You will be visiting these links quite frequently, so it's a good idea to bookma
 | Frontend Repository |          https://github.com/jimmoua/bams-barber-shop           |
 |        Jira         |               https://thanostech.atlassian.net/                |
 |       Jenkins       |  http://ec2-3-16-27-37.us-east-2.compute.amazonaws.com:8080/   |
-| Staging Application |              master.d1smlrwpipxh5g.amplifyapp.com              |
+| Staging Application |         https://master.d1smlrwpipxh5g.amplifyapp.com/          |
 |     Staging API     | https://t6htikwtu1.execute-api.us-east-2.amazonaws.com/staging |
 
 <h1>Table of Contents</h1>
