@@ -10,7 +10,6 @@ You will be visiting these links quite frequently, so it's a good idea to bookma
 | Backend Repository  |          https://github.com/jimmoua/bams_barber_shop           |
 | Frontend Repository |          https://github.com/jimmoua/bams-barber-shop           |
 |        Jira         |               https://thanostech.atlassian.net/                |
-|       Jenkins       |  http://ec2-3-16-27-37.us-east-2.compute.amazonaws.com:8080/   |
 | Staging Application |         https://master.d1smlrwpipxh5g.amplifyapp.com/          |
 |     Staging API     | https://t6htikwtu1.execute-api.us-east-2.amazonaws.com/staging |
 
@@ -49,19 +48,15 @@ We are going to use the agile scrum methodology. The agile software that we will
 We will be having scrum meetings **every week** on Thursday from 2:30pm - 3:50pm (CST), although this may be subject to change if there is a class meeting that day.
 
 ## Continuous Integration and Continuous Delivery
-We are going to be using **Jenkins** for CI/CD. Our Jenkins server can be found [here](http://ec2-3-16-27-37.us-east-2.compute.amazonaws.com:8080/).
+We will let GitHub Actions handle our CI/CD.
 
-What is Jenkins? Here is a small excerpt from Wikipedia.
-
-> Jenkins is a free and open source automation server. It helps automate the parts of software development related to building, testing, and deploying, facilitating continuous integration and continuous delivery.
-
-To keep it short, we will all be commiting code to the code repository. **We need to make sure that every time we make a push, our code is able to merge with the master branch and that all unit tests pass**. This helps with merge conflicts and making sure nothing breaks when pushing new code commits. Every time we make a push to the GitHub repository, I will have Jenkins set up so that it will do these steps in the following order:
+We will be commiting code to the code repository. **We need to make sure that every time we make a push, our code is able to merge with the master branch and that all unit tests pass**. This helps with merge conflicts and making sure nothing breaks when pushing new code commits. For all PR's, GitHub Actions should do the following:
 
 1. Builds the project for a specific branch
 2. Runs unit tests to see if they pass
-3. Deploy to a server (if needed)
+3. Deploy to the staging server (master)
 
-If any of these steps fail, **the developer responsible for the commits that broke the Jenkins build needs to go back and fix their code so that it may merge with master without any major issues**.
+If any of these steps fail, **the developer needs to go back and fix their code so that it may merge with master without any issues**.
 
 
 # Project Details
