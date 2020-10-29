@@ -65,12 +65,16 @@ If any of these steps fail, **the developer needs to go back and fix their code 
 1. A calender view that displays a list of free time slots in which users may schedule appointment.
 
 # Tech Stack
-We will be going with the MERN stack, but replace MongoDB with MySQL.
+Here is the basic stack we are using:
 
-+ **(M)** ySQL for database
-+ **(E)** xpress for our web application framework
-+ **(R)** eact for our frontend client
-+ **(N)** odeJs for our JavaScript environment (runs our backend server)
+|   Name   |            Tech             |
+| :------: | :-------------------------: |
+| DynamoDB |          Database           |
+| Express  |        Web framework        |
+| ReactJs  |     Frontend framework      |
+|  NodeJS  | Backend runtime environment |
+
+We are orchestrating all of this mainly via AWS.
 
 # Roles
 
